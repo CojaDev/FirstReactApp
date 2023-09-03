@@ -29,7 +29,7 @@ function Nav() {
             left: isWideScreen ? '50px' : '20px',
           }}
           className="logo"
-          src="/vite.svg"
+          src="./vite.svg"
         />
         <ul
           style={{
