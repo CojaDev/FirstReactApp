@@ -184,3 +184,28 @@ header .holder .hero-bg {
     display: none;
   }
 }
+@media only screen and (max-width: 1235px) {
+  .container {
+    width: 75%;
+  }
+  header .container .naslov {
+    padding: 40px 20px;
+    padding-right: 10px;
+    max-width: 75%;
+  }
+
+  header .container .naslov .input input {
+    width: 65%;
+  }
+
+  header .container .section {
+    padding: 40px 20px;
+    padding-bottom: 0;
+    max-width: 75%;
+    line-height: 32px;
+  }
+  header .container .section p {
+    max-width: 100%;
+    width: 100%;
+  }
+}
