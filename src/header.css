@@ -1,0 +1,186 @@
+header .container {
+  margin: 0px auto;
+  max-width: 1128px;
+}
+header .container .naslov {
+  padding: 40px 20px;
+  max-width: 55%;
+}
+
+header .container .naslov h1 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+header .container .naslov p {
+  text-align: justify;
+  max-width: 85%;
+  font-size: 20px;
+  line-height: 32px;
+}
+header .container p {
+  color: #768696;
+}
+
+header .container .naslov .input {
+  display: flex;
+}
+
+header .container .naslov .input input {
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  padding: 13px 16px;
+  height: 48px;
+  box-shadow: none;
+  border: 0;
+  max-width: 100%;
+  width: 55%;
+  margin: 5px;
+  margin-left: 0;
+}
+header .container .naslov .input input:focus {
+  outline: none;
+}
+header .container .naslov .input button {
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none !important;
+  background: linear-gradient(65deg, #46cbff 0, #38addb 100%);
+  color: white !important;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  padding: 16px 36px;
+  height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 5px;
+}
+header .container .naslov .input button:active {
+  opacity: 0.98;
+  transform: scale(0.98);
+}
+header .container .section {
+  padding: 40px 20px;
+  padding-bottom: 0;
+  max-width: 55%;
+  line-height: 32px;
+}
+header .container .section .secHeader {
+  display: flex;
+  line-height: 32px;
+  align-items: center;
+}
+header .container .section .secHeader h2 {
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-top: 0;
+}
+header .container .section .secHeader i {
+  color: #46cbff;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+header .container .section p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.1px;
+  width: 75%;
+}
+
+footer .container {
+  margin: 0px auto;
+  max-width: 1128px;
+  padding: 0 20px;
+  padding-bottom: 50px;
+  margin-top: 90px;
+}
+footer .container a {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+footer .container hr {
+  opacity: 0.5;
+  border-color: #768696;
+}
+footer .container .bottom {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .bottom .icons {
+  font-size: 15px;
+}
+footer .container .bottom .icons i {
+  padding: 5px;
+  transition: 0.2s ease;
+  margin-left: 30px;
+}
+footer .container .bottom .icons i.fa-facebook:hover {
+  color: #238aff;
+}
+footer .container .bottom .icons i.fa-twitter:hover {
+  color: #46cbff;
+}
+footer .container .bottom .icons i.fa-google:hover {
+  color: tomato;
+}
+footer .container .bottom p {
+  font-size: 15px;
+  color: #768696;
+  margin: 0;
+}
+header .holder {
+  display: flex;
+}
+header .holder .hero-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  header .container .naslov {
+    padding: 40px 20px;
+    padding-right: 10px;
+    max-width: 100%;
+  }
+  header .container .naslov .input {
+    flex-wrap: wrap;
+  }
+  header .container .naslov .input input {
+    width: 98%;
+  }
+
+  header .container .naslov .input button {
+    width: 98%;
+    margin-left: 0;
+  }
+  header .container .section {
+    padding: 40px 20px;
+    padding-bottom: 0;
+    max-width: 100%;
+
+    line-height: 32px;
+  }
+  header .container .section p {
+    max-width: 100%;
+    width: 100%;
+  }
+  header .holder .hero-bg {
+    display: none;
+  }
+}
