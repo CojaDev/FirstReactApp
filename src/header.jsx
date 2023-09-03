@@ -15,6 +15,7 @@ function Header() {
                 <button type="button">Notify Me</button>
               </div>
             </div>
+
             <div className="hero-bg">
               <svg width="720" height="635" xmlns="http://www.w3.org/2000/svg">
                 <defs>
